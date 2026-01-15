@@ -3,8 +3,11 @@
         style="background-color: rgb(238, 241, 246);"
     >
         <div class="container app-header">
-            <el-link href="https://github.com/Indexyz/Dnsflare">
+            <el-link href="/">
                 Dnsflare
+            </el-link>
+            <el-link href="https://moeyy.cn/pages/dnsflare-help">
+                使用说明
             </el-link>
             <div class="header-right">
                 <el-link
@@ -82,6 +85,15 @@ function handleCommand(command: HeaderCommand) {
 
         p,a {
             @include item;
+        }
+
+        .el-link {
+            @include item;
+            margin-right: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
         }
 
         .header-right {
