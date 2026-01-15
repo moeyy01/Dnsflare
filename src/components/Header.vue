@@ -6,7 +6,7 @@
             <el-link href="/">
                 Dnsflare
             </el-link>
-            <el-link href="https://moeyy.cn/pages/dnsflare-help">
+            <el-link href="https://moeyy.cn/pages/dnsflare-help" target="_blank">
                 使用说明
             </el-link>
             <div class="header-right">
